@@ -13,6 +13,10 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 for n in range(0,nr_letters):
   random_letter = random.randint(0,len(letters)-1)
-  print(letters[random_letter],end="")
+  print(letters[random_letter],end = "")
 for n in range(0,nr_symbols):
   random_symbol = random.randint(0,len(symbols)-1)
+  print(symbols[random_symbol],end="")
+for n in range(0,nr_numbers):
+  random_numbers = random.randint(0,len(numbers)-1)
+  print(symbols[nr_numbers],end="")
